@@ -4,8 +4,8 @@
 
 int main(int argc, char *argv[])
 {
-    QApplication a(argc, argv);
+    QApplication a(argc, argv); // Creates a Qt Application Object with the commands fiven
     Notepad w;
-    w.show();
-    return a.exec();
+    w.show(); // make widget visible
+    return a.exec(); // make QApplication enter event loop (like mouse presses & key strokes)/
 }
